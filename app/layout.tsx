@@ -17,7 +17,7 @@ const montserrat = Montserrat({ subsets: ["latin"], variable: "--font-montserrat
 const poppins = Poppins({ subsets: ["latin"], variable: "--font-poppins", weight: ["400", "500", "600", "700", "800"] });
 
 export const metadata: Metadata = {
-  title: 'AZ Sun Covers LLC - Custom Patio Covers',
+  title: 'Better Life Landscaping - Custom Patio Covers',
   description: 'Transform your outdoors with custom patio covers designed to impress. Handcrafted patio covers that turn ordinary backyards into luxury retreats.',
   icons: {
     icon: [

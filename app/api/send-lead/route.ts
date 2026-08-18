@@ -15,7 +15,7 @@ export async function POST(request: Request) {
         email,
         phone,
       },
-      source: "AZ Sun Covers Landing Page - Essential Package",
+      source: "Better Life Landscaping Landing Page - Essential Package",
       submitted_at: new Date().toISOString(),
     }
 
