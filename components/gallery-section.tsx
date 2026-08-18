@@ -13,11 +13,11 @@ const PROJECTS = [
   { src: "/images/gallery-6.jpg", alt: "Two-tone freestanding patio cover with furniture" },
   { src: "/images/gallery-7.jpg", alt: "Brown lattice pergola with wicker daybed and desert landscaping" },
   { src: "/images/gallery-8.jpg", alt: "Brown lattice sun cover viewed from underneath" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_6sb5ia6sb5ia6sb5.png-C8Bd4arsldd0g0jfgPZIvGUriDZe4s.jpeg", alt: "Modern pergola with horizontal slat walls on turf" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_s8h5lus8h5lus8h5.png-FNTURxspApBF2KbzrCgK1EubPeh5qO.jpeg", alt: "Solid-roof pergola over outdoor kitchen by spa" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_ga9atiga9atiga9a.png-ojFVDM2ljL46RaydNwF9ormLf9DxXf.jpeg", alt: "Freestanding dark pergola on paver patio with turf" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_n99aq3n99aq3n99a.png-mDMlrSHuJ7ppwAPJPD5HLCawAFiLsv.jpeg", alt: "Solid-roof pergola with outdoor kitchen and desert landscaping" },
-  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Gemini_Generated_Image_w268uiw268uiw268.png-MsHAYKrD1uTprgFVh3J68dvDG8hNiT.jpeg", alt: "Bronze pergola with ceiling fan over stone outdoor kitchen" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/604827609_18094585025494359_2108981316619141228_n-0AadZQYeohlA9iFeiDp9eWNZcdRMWD.jpg", alt: "Black louvered pergola attached to home over concrete patio with desert landscaping" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/605904172_18094585016494359_2863394204829172646_n-IIwcEm36fmjpJa8g3xuQ7KLIZYcPcl.jpg", alt: "Freestanding dark pergola on paver patio with turf lawn at dusk" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/607221145_18094584959494359_1782656086283699737_n%28792%29-WvfnpX84pBxOyJGZqrFpaJcojCPLhK.jpg", alt: "Aerial view of backyard with louvered pergola, paver patio, and turf" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/605904169_18094585007494359_5876347638347139777_n-5q7yZGXgKM5Ix4EPYAkT38mIISAX3t.jpg", alt: "View from covered patio of freestanding pergola with lit stone walkway" },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/605985192_18094584977494359_7429041825270019903_n-xR50zGkMKfGeaS97U8OsrxhNKDG5uO.jpg", alt: "Low-angle view of louvered pergola with lit stone pathway and desert landscaping at dusk" },
 ]
 
 const poppinsStyle = { fontFamily: "var(--font-poppins), Poppins, sans-serif" }
