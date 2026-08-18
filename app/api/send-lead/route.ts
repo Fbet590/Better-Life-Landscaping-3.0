@@ -1,0 +1,40 @@
+import { NextResponse } from "next/server"
+
+const WEBHOOK_URL =
+  "https://services.leadconnectorhq.com/hooks/0VbUGbZaW3xKX3mcDC4p/webhook-trigger/8ff03f17-5f01-4fe8-b02f-68b004bfccfd"
+
+export async function POST(request: Request) {
+  try {
+    const body = await request.json()
+
+    const { name, email, phone } = body
+
+    const payload = {
+      contact: {
+        name,
+        email,
+        phone,
+      },
+      source: "AZ Sun Covers Landing Page - Essential Package",
+      submitted_at: new Date().toISOString(),
+    }
+
+    const webhookResponse = await fetch(WEBHOOK_URL, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    })
+
+    if (!webhookResponse.ok) {
+      throw new Error("Webhook delivery failed")
+    }
+
+    return NextResponse.json({ success: true })
+  } catch (error) {
+    console.error("Lead submission error:", error)
+    return NextResponse.json(
+      { error: "Something went wrong. Please try again." },
+      { status: 500 }
+    )
+  }
+}
